@@ -1,5 +1,8 @@
 # KaggleHousingPriceCompe
 My first attempt of a kaggle competition. This version is a refined version after a brute force solution. 
+```
+https://www.kaggle.com/c/house-prices-advanced-regression-techniques/overview
+```
 ## Brute force solution： Random Forest Regressor
 The brute force solution achieved a score of 0.167ish on the test set. All missing values were filled with 0, no outliers were thrown away and the Prices were not log1p adjusted.
 ## Refined version: Gradient Boosting Regressor
